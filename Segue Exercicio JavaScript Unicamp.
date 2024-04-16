@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <script>
+        var nome = "Pedro";
+        var sobrenome = "Silva";
+
+        if(nome == "Gabriel"){ // se a variavel nome tiver o valor Gabriel
+            alert("Bem vindo" + nome);//exiba uma janela de alerta com o texto Bem Vindo Gabriel
+            }else if(nome == "Pedro" & sobrenome
+            != "Silva"){//e se a variavel tiver o valor Pedro 
+            alert("Bem vindo Presidente da Empresa");//exibir uma janela de alerta com o texto bem vindo presidente
+            }else if(nome == "Pedro" & sobrenome == "Silva"){//e se a variavel tiver o valor Pedro
+            alert("Bem vindo" + nome + " " + sobrenome);//exibir uma janela de alerta com o texto bem vindo presidente 
+            }else{ //caso contrario
+            alert("Usuario não Cadastrado");//exiba usuario nao cadastrado
+        }    
+    </script>
+</head>
+<body>
+    
+</body>
